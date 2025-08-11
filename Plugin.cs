@@ -27,7 +27,7 @@ namespace Caldris
         public static string characterName = "Caldris";
         public static string heroName = characterName;
 
-        public static string subclassName = "SubclassToReplace"; // needs caps
+        public static string subclassName = "Thermomancer"; // needs caps
 
         public static string subclassname = subclassName.ToLower();
         public static string itemStem = subclassname;
@@ -44,7 +44,7 @@ namespace Caldris
             RegisterMod(
                 _name: PluginInfo.PLUGIN_NAME,
                 _author: "binbin",
-                _description: "Caldris, the SubclassToReplace.",
+                _description: "Caldris, the Thermomancer.",
                 _version: PluginInfo.PLUGIN_VERSION,
                 _date: ModDate,
                 _link: @"https://github.com/binbinmods/Caldris",

@@ -69,18 +69,18 @@
     "CardsSingularity": [
         "thermomancerthermalpulse",
         "frostbolt",
-        "frostbolt",
-        "frostbolt",
-        "flare",
-        "flare",
+        "fireblast",
+        "icelance",
+        "fireball",
+        "icicle",
         "flare",
         "frostfirebolt",
-        "frostfirebolt",
-        "frostfirebolt",
-        "elementalward",
+        "elementalbolt",
+        "searingnova",
+        "searingtouch",
         "elementalward",
         "scrollofintellect",
-        "scrollofintellect",
+        "frostnova",
         "coldsnap"
     ]
 }

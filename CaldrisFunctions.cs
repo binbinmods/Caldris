@@ -28,7 +28,7 @@ namespace Caldris
         // public static string itemStem = $"{subclassname}";
         public static List<string> cardsWithCustomDescriptions = [];
         public static List<string> cardsToAppendDescription = [];
-        public static List<string> cardsToPrependDescription = ["SubclassToReplaceformulaa", "SubclassToReplaceformulab"];
+        public static List<string> cardsToPrependDescription = ["Thermomancerformulaa", "Thermomancerformulab"];
 
         public static string NumFormatItem(int num, bool plus = false, bool percent = false)
         {

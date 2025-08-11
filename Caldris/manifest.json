@@ -1,8 +1,8 @@
 {
-  "name": "Caldris_The_SubclassToReplace",
+  "name": "Caldris_The_Thermomancer",
   "version_number": "0.1.0",
   "website_url": "https://github.com/binbinmods/Caldris",
-  "description": "New Hero Mod for Caldris, the SubclassToReplace. A new hero that specializes in x, y, and z",
+  "description": "New Hero Mod for Caldris, the Thermomancer. A new hero that specializes in a combo of fire and ice.",
   "dependencies": [
     "meds-Obeliskial_Content-1.5.6",
     "meds-Obeliskial_Essentials-1.5.0"

@@ -72,26 +72,39 @@ namespace Caldris
 
             if (_trait == trait0)
             {
-                // Gain 1 evade at combat start 
+                // if an enemy has Burn, apply Chill 2 to them. If an enemy has Chill, apply Burn 2 to them. 
                 LogDebug($"Handling Trait {traitId}: {traitName}");
-                _character.SetAuraTrait(_character, "evade", 1);
+                for (int i = 0; i < teamNpc.Length; i++)
+                {
+                    NPC npc = teamNpc[i];
+                    if (!IsLivingNPC(npc)) continue;
+                    if (npc.HasEffect("burn"))
+                    {
+                        npc.SetAuraTrait(_character, "chill", 2);
+                    }
+                    if (npc.HasEffect("chill"))
+                    {
+                        npc.SetAuraTrait(_character, "burn", 2);
+                    }
+
+                }
             }
 
 
             else if (_trait == trait2a)
             {
                 // trait2a
-                // Evasion +1. 
-                // Evasion on you stacks and increases All Damage by 1 per charge. 
-                // When you play a Defense card, gain 1 Energy and Draw 1. (2 times/turn)
-
-                if (CanIncrementTraitActivations(traitId) && _castedCard.HasCardType(Enums.CardType.Defense))// && MatchManager.Instance.energyJustWastedByHero > 0)
+                // Whenever you apply Chill, deal 2 Fire damage to the target.
+                if (_auxString == "chill")
                 {
                     LogDebug($"Handling Trait {traitId}: {traitName}");
-                    _character?.ModifyEnergy(1);
-                    DrawCards(1);
-                    IncrementTraitActivations(traitId);
+                    if (IsLivingNPC(_target))
+                    {
+                        int damageAmount = _character?.DamageWithCharacterBonus(2, Enums.DamageType.Fire, Enums.CardClass.None) ?? 2;
+                        _target.IndirectDamage(Enums.DamageType.Fire, damageAmount);
+                    }
                 }
+
             }
 
 
@@ -100,7 +113,15 @@ namespace Caldris
             {
                 // trait2b:
                 // Stealth on heroes increases All Damage by an additional 15% per charge and All Resistances by an additional 5% per charge.",
-                LogDebug($"Handling Trait {traitId}: {traitName}");
+                if (_auxString == "burn")
+                {
+                    LogDebug($"Handling Trait {traitId}: {traitName}");
+                    if (IsLivingNPC(_target))
+                    {
+                        int damageAmount = _character?.DamageWithCharacterBonus(2, Enums.DamageType.Cold, Enums.CardClass.None) ?? 2;
+                        _target.IndirectDamage(Enums.DamageType.Cold, damageAmount);
+                    }
+                }
 
             }
 

@@ -1,8 +1,8 @@
-# Caldris, the SubclassToReplace
+# Caldris, the Thermomancer
 
-A hero mod, introducing Caldris, a mage/healer who has been trapped in a mental cage. She goes on a journey to break out but has two very different ways of doing so overcoming the issues in a calm and focused way or forcefully breaking out of the cage through sheer will.
+A hero mod, introducing Caldris, a mage specialized in fire and ice.
 
-This character was designed by @designer.
+This character was designed by @badutski2 (James).
 
 This currently does not include any events or quests related to Caldris other than those available to all heroes or all heroes of a specific class.
 
