@@ -1,0 +1,15 @@
+{
+    "BaseSkin": true,
+    "PerkLevel": 0,
+    "SkinGO": "skincaldris",
+    "SkinID": "thermomancerbase",
+    "SkinName": "Default",
+    "SkinOrder": 0,
+    "SkinSubclass": "thermomancer",
+    "Sku": "",
+    "SpritePortrait": "caldrisPortrait",
+    "SpritePortraitGrande": "caldrisPortraitGrande",
+    "SpriteSilueta": "caldrisSilueta",
+    "SpriteSiluetaGrande": "caldrisSiluetaGrande",
+    "SteamStat": ""
+}

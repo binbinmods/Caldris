@@ -1,0 +1,15 @@
+{
+    "Card0": "thermomancerthermalpulse",
+    "Card1": "frostbolt",
+    "Card2": "flare",
+    "Card3": "frostfirebolt",
+    "Card4": "scrollofintellect",
+    "Card5": "",
+    "CardSpecial0": "",
+    "CardSpecial1": "",
+    "PackClass": "mage",
+    "PackID": "caldris",
+    "PackName": "Caldris",
+    "PerkList": [],
+    "RequiredClass": "thermomancer"
+}

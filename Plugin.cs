@@ -6,10 +6,10 @@ using Obeliskial_Essentials;
 using System.IO;
 using UnityEngine;
 using System;
-using static CharacterToReplace.Traits;
+using static Caldris.Traits;
 using BepInEx.Configuration;
 
-namespace CharacterToReplace
+namespace Caldris
 {
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     [BepInDependency("com.stiffmeds.obeliskialessentials")]
@@ -24,7 +24,7 @@ namespace CharacterToReplace
         public static ConfigEntry<bool> EnableDebugging { get; set; }
 
 
-        public static string characterName = "CharacterToReplace";
+        public static string characterName = "Caldris";
         public static string heroName = characterName;
 
         public static string subclassName = "SubclassToReplace"; // needs caps
@@ -44,11 +44,11 @@ namespace CharacterToReplace
             RegisterMod(
                 _name: PluginInfo.PLUGIN_NAME,
                 _author: "binbin",
-                _description: "CharacterToReplace, the SubclassToReplace.",
+                _description: "Caldris, the SubclassToReplace.",
                 _version: PluginInfo.PLUGIN_VERSION,
                 _date: ModDate,
-                _link: @"https://github.com/binbinmods/CharacterToReplace",
-                _contentFolder: "CharacterToReplace",
+                _link: @"https://github.com/binbinmods/Caldris",
+                _contentFolder: "Caldris",
                 _type: ["content", "hero", "trait"]
             );
             // apply patches            

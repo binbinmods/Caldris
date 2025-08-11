@@ -5,9 +5,9 @@ using BepInEx.Configuration;
 using HarmonyLib;
 using static Obeliskial_Essentials.Essentials;
 using System;
-using static CharacterToReplace.CustomFunctions;
-using static CharacterToReplace.Plugin;
-using static CharacterToReplace.Traits;
+using static Caldris.CustomFunctions;
+using static Caldris.Plugin;
+using static Caldris.Traits;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -15,7 +15,7 @@ using UnityEngine;
 
 
 // Make sure your namespace is the same everywhere
-namespace CharacterToReplace
+namespace Caldris
 {
 
     // [HarmonyPatch] //DO NOT REMOVE/CHANGE

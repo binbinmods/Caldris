@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using Obeliskial_Content;
 using UnityEngine;
-using static CharacterToReplace.CustomFunctions;
-using static CharacterToReplace.Plugin;
-using static CharacterToReplace.DescriptionFunctions;
-using static CharacterToReplace.CharacterFunctions;
+using static Caldris.CustomFunctions;
+using static Caldris.Plugin;
+using static Caldris.DescriptionFunctions;
+using static Caldris.CharacterFunctions;
 using System.Text;
 using TMPro;
 using Obeliskial_Essentials;
 using System.Data.Common;
 
-namespace CharacterToReplace
+namespace Caldris
 {
     [HarmonyPatch]
     internal class Traits
