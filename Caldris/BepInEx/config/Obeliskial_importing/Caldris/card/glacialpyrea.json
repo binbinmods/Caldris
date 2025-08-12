@@ -16,7 +16,7 @@
     "UpgradesTo1": "",
     "UpgradesTo2": "",
     "UpgradesToRare": "",
-    "CardClass": "Mage",
+    "CardClass": "Special",
     "CardType": "Fire_Spell",
     "CardTypeAux": [
         "Cold_Spell",

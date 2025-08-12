@@ -16,7 +16,7 @@
     "UpgradesTo1": "thermomancerthermalpulsea",
     "UpgradesTo2": "thermomancerthermalpulseb",
     "UpgradesToRare": "thermomancerthermalpulserare",
-    "CardClass": "Mage",
+    "CardClass": "Special",
     "CardType": "Cold_Spell",
     "CardTypeAux": [
         "Fire_Spell",

@@ -16,7 +16,7 @@
     "UpgradesTo1": "thermalshocka",
     "UpgradesTo2": "thermalshockb",
     "UpgradesToRare": "",
-    "CardClass": "Mage",
+    "CardClass": "Special",
     "CardType": "Fire_Spell",
     "CardTypeAux": [
         "Cold_Spell",

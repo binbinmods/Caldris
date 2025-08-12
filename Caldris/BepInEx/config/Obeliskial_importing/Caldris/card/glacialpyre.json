@@ -16,7 +16,7 @@
     "UpgradesTo1": "glacialpyrea",
     "UpgradesTo2": "glacialpyreb",
     "UpgradesToRare": "",
-    "CardClass": "Mage",
+    "CardClass": "Special",
     "CardType": "Fire_Spell",
     "CardTypeAux": [
         "Cold_Spell",
