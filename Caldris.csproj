@@ -6,7 +6,7 @@
 	<Product>Caldris</Product>
     <AssemblyName>com.binbin.Caldris</AssemblyName>
     <Description>Caldris, The Thermomancer</Description>
-    <Version>0.1.0</Version>
+    <Version>0.2.1</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
